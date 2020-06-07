@@ -1,0 +1,33 @@
+/*É criado variaveis que podem ser usadas por todo o documento*/
+:root{
+    --title-color:#322153;
+    --primary-color: #34CB79;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(-45deg, #FDA6E0, #B6147F);
+    -webkit-font-smoothing: antialiased;/*Deixa a fonte um pouco melhor de se ver*/
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--title-color);
+    font-family: 'Ubuntu', sans-serif;
+  
+}
+
+
+

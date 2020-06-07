@@ -1,0 +1,36 @@
+Baixar nodejs
+Baixar GitBash
+
+Abrir o arquivo por meio do GitBash
+Executar
+npm init -y
+npm install express
+npm install nodemon -D
+
+colocar em package.json.js   sripts
+"start": "nodemon src/server.js"
+
+npm start ------> iniicia o servidor
+
+
+npm install nunjucks
+Ir nas extencões e baixar Nunjucks template
+crtl+shift+P 
+Procurar por Preferences Open Settings JSON
+COLAR:
+    "files.associations": {
+        "*.html": "njk"
+        },
+    "emmet.includeLanguages": {
+        "njk": "html"
+        },
+    "vsicons.associations.files": [
+        { "icon": "nunjucks", "extensions": ["html"], "format": "svg" }
+        ],
+        "workbench.iconTheme": "vscode-icons",
+}
+
+
+
+
+npm install sqlite3
