@@ -1,4 +1,4 @@
-Baixar nodejs
+﻿Baixar nodejs
 Baixar GitBash
 
 Abrir o arquivo por meio do GitBash
@@ -7,13 +7,15 @@ npm init -y
 npm install express
 npm install nodemon -D
 
-colocar em package.json.js   sripts
+colocar em package.json.js   
+"main": "server.js",
+|----->sripts
 "start": "nodemon src/server.js"
-
-npm start ------> iniicia o servidor
 
 
 npm install nunjucks
+
+<-----Apenas 1 vez------->
 Ir nas extencões e baixar Nunjucks template
 crtl+shift+P 
 Procurar por Preferences Open Settings JSON
@@ -34,3 +36,6 @@ COLAR:
 
 
 npm install sqlite3
+
+
+npm start ------> iniicia o servidor
